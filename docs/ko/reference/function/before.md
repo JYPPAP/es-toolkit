@@ -27,8 +27,8 @@ function before<F extends (...args: any[]) => any>(n: number, func: F): F;
 
 `n`이 음수일 경우 오류를 발생시켜요.
 
-## 예시
-
+## 예시 
+(* 여기! )
 ```typescript
 import { after } from 'es-toolkit/function';
 
